@@ -22,6 +22,27 @@ module.exports = function(app) {
 	// post route to handle incoming survey results and return best match
 	app.post("/api/friends", function(req, res) {
 
+		// assign form data to currentUser object
+		var currentUser = req.body;
+
+		// array that will hold the final diff score for each user
+		var diffArray = [];
+
+		// for loop to compare the user's answers to each friend in the database
+		for (let i = 0; i < friendsData.length; i++){
+
+			var diffSum = 0;
+
+			// for each of the 10 questions get a number differential
+			for (let n = 0; n < currentUser.scores.length; n++) {
+
+				var diff = currentUser.scores[n] - friendsData[i].scores[n];
+
+				diffSum = diffSum + Math.abs(diff);
+
+			} // end loop to compare each answer
+			
+		} // end of loop to compare each friend
 
 
 	}); // end post route
