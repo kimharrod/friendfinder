@@ -69,8 +69,18 @@ module.exports = function(app) {
 			} // end if friendscore is lowest
 
 		} // end for loop of all potential matches
-		
 
+		// add the current user data to the array of all friends
+		friendsData.push(currentUser);
+
+		// write entire array of friends to file for persistent data storage
+		fs.writeFile('app/data/friends.js', JSON.stringify(friendsData, null, 4), function (err) {
+
+			if (err) throw err;
+		});
+
+		// return the best match to the browser
+		res.json(bestMatch);
 
 
 	}); // end post route
