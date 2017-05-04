@@ -41,8 +41,36 @@ module.exports = function(app) {
 				diffSum = diffSum + Math.abs(diff);
 
 			} // end loop to compare each answer
-			
+
+			// array to hold the diff scores for each potential match		
+			diffArray.push({
+
+				"name": friendsData[i].name,
+
+				"friendscore": diffSum,
+
+				"photo": friendsData[i].photo
+
+			}); // end diffArray push
+
 		} // end of loop to compare each friend
+
+		// code to determine the best match based on score differentials	
+		var lowMatch = 100;
+		var bestMatch = {};
+
+		for (let i =0; i < diffArray.length; i++) {
+
+			if (diffArray[i].friendscore < lowMatch) {
+
+				lowMatch = diffArray[i].friendscore;
+				bestMatch = diffArray[i];
+
+			} // end if friendscore is lowest
+
+		} // end for loop of all potential matches
+		
+
 
 
 	}); // end post route
