@@ -1,6 +1,6 @@
 var path = require ("path");
 
-// make our route accessible to the calling script file server.js
+// make our route accessible to the calling script file (server.js)
 module.exports = function(app) {
 
 	// route to return the survey page to the browser for display
