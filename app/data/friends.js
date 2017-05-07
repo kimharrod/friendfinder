@@ -94,5 +94,37 @@
             "4",
             "2"
         ]
+    },
+    {
+        "name": "Angela",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMJSbDYXIJ46oGqs3ESv2vPE9cF-gb14cQP6Q87di15idltcF",
+        "scores": [
+            "2",
+            "2",
+            "3",
+            "2",
+            "4",
+            "2",
+            "2",
+            "4",
+            "4",
+            "2"
+        ]
+    },
+    {
+        "name": "Angela",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMJSbDYXIJ46oGqs3ESv2vPE9cF-gb14cQP6Q87di15idltcF",
+        "scores": [
+            "2",
+            "3",
+            "2",
+            "4",
+            "2",
+            "5",
+            "4",
+            "2",
+            "1",
+            "2"
+        ]
     }
 ]

@@ -177,7 +177,7 @@
 	        <img id="matchImg" src="http://www.globeslcc.com/wp-content/uploads/media/anonymous_girl_facebook.jpg" alt="" height="500" width="500">
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" id="reset" class="btn btn-default" data-dismiss="modal">Close</button>
 	      </div>
 	    </div>
 
@@ -243,23 +243,24 @@
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');
 
-
 	    	});
-
-	    	// $.get(currentURL + "/api/friends", function(data){
-
-	    	// 	console.log(data);
-
-	    	// });
 		}
+
 		else
+
 		{
 			alert("Please fill out all fields before submitting!");
-		}
+		} 	
     	
     	return false;
     });
 
+     // Return user to home page after modal is closed 
+    $("#reset").on("click", function(){
+
+    	window.location.href = "/"; 
+
+    });
 
   </script>
 
