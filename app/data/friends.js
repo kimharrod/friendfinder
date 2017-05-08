@@ -19,15 +19,15 @@
         "name": "Sarah",
         "photo": "https://media.glamour.com/photos/573543833992fad45ece9e48/master/pass/next-generation-supermodel-kaia-gerber-social.jpg",
         "scores": [
-            "3",
-            "3",
-            "4",
             "2",
-            "3",
             "2",
-            "4",
-            "5",
-            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
             "2"
         ]
     },
@@ -124,6 +124,86 @@
             "4",
             "2",
             "1",
+            "2"
+        ]
+    },
+    {
+        "name": "Dana",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQH5MB_EFybsVUpDKJWI48UzcQnwoHWACV-JOu_EDfgwJ4T9YhR7g",
+        "scores": [
+            "1",
+            "3",
+            "3",
+            "3",
+            "1",
+            "5",
+            "3",
+            "3",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "name": "Masue",
+        "photo": "http://www.chinadaily.com.cn/celebrity/img/attachement/jpg/site1/20130722/001ec97909631357152f5b.jpg",
+        "scores": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ]
+    },
+    {
+        "name": "Jane",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYGL-2lgY4aqZskLYLU1rBUYyNoIshFyt4Addyd-4DAVRmLiyspQ",
+        "scores": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+        ]
+    },
+    {
+        "name": "Janet",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyAIWp_zr9AJdzFqQmnc1SPwg6hFbLi_klFDQfKZUy6ubePf-Lbg",
+        "scores": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ]
+    },
+    {
+        "name": "Raina",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIeOgclWJFSOCCTLQdkxAnEthA4AN1HfXJrO3VCTePqc9mpWX4",
+        "scores": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
             "2"
         ]
     }
