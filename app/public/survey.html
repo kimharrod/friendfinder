@@ -31,7 +31,7 @@
 		<h2><i class="fa fa-heart-o" aria-hidden="true"></i> Best Friend Finder</h2>
 		<hr>
 
-		<h3><strong>About You</strong></h3>
+		<h3>About You</h3>
 		<h4>Name (Required)</h4>
 		<input type="text" name="" id="name" class="form-control" required >
 
@@ -40,7 +40,7 @@
 
 		<hr>
 
-		<h3><strong>Question 1</strong></h3>
+		<h3>Question 1</h3>
 		<h4>Your ideal vacation involves a beach.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q1">
 	 		<option value=""></option>
@@ -51,7 +51,7 @@
             <option value="5">5 (Strongly Agree)</option>
       	</select>
 
-		<h3><strong>Question 2</strong></h3>
+		<h3>Question 2</h3>
 		<h4>You'd rather watch a good movie than read a good book.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q2">
 	 		<option value=""></option>
@@ -63,7 +63,7 @@
       	</select>
 
 
-		<h3><strong>Question 3</strong></h3>
+		<h3>Question 3</h3>
 		<h4>You prefer spin class to yoga.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q3">
 	 		<option value=""></option>
@@ -75,7 +75,7 @@
       	</select>
 
 
-		<h3><strong>Question 4</strong></h3>
+		<h3>Question 4</h3>
 		<h4>Being out in nature helps you relax.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q4">
 	 		<option value=""></option>
@@ -87,7 +87,7 @@
       	</select>
 
 
-		<h3><strong>Question 5</strong></h3>
+		<h3>Question 5</h3>
 		<h4>A gourmet cooking class would spark your interest.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q5">
 	 		<option value=""></option>
@@ -99,7 +99,7 @@
       	</select>
 
 
-		<h3><strong>Question 6</strong></h3>
+		<h3>Question 6</h3>
 		<h4>Spontaneous plans are the most fun.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q6">
 	 		<option value=""></option>
@@ -111,7 +111,7 @@
       	</select>
 
 
-		<h3><strong>Question 7</strong></h3>
+		<h3>Question 7</h3>
 		<h4>Shopping puts you in a good mood.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q7">
 	 		<option value=""></option>
@@ -122,7 +122,7 @@
             <option value="5">5 (Strongly Agree)</option>
       	</select>
 
-		<h3><strong>Question 8</strong></h3>
+		<<h3>Question 8</h3>
 		<h4>Being physically fit is a priority.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q8">
 	 		<option value=""></option>
@@ -133,7 +133,7 @@
             <option value="5">5 (Strongly Agree)</option>
       	</select>
 
-		<h3><strong>Question 9</strong></h3>
+		<h3>Question 9</h3>
 		<h4>You prefer a quiet dinner over dancing to a DJ.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q9">
 	 		<option value=""></option>
@@ -144,7 +144,7 @@
             <option value="5">5 (Strongly Agree)</option>
       	</select>
 
-		<h3><strong>Question 10</strong></h3>
+		<h3>Question 10</h3>
 		<h4>Life wouldn't be the same without a pet.</h4>
 	 	<select data-placeholder="" class="chosen-select" id="q10">
 	 		<option value=""></option>
@@ -174,15 +174,15 @@
 	    <!-- Modal content-->
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <button type="button" id="reset" class="close" data-dismiss="modal">&times;</button>
-	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	        <button type="button" class="close reset" data-dismiss="modal">&times;</button>
+	        <h2 class="modal-title">Best Match</h2>
 	      </div>
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
 	        <img id="matchImg" src="http://www.globeslcc.com/wp-content/uploads/media/anonymous_girl_facebook.jpg" alt="" style="height: auto; max-width: 100%">
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" id="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-default reset" data-dismiss="modal">Close</button>
 	      </div>
 	    </div>
 
@@ -261,7 +261,7 @@
     });
 
      // Return user to home page after modal is closed 
-    $("#reset").on("click", function(){
+    $(".reset").on("click", function(){
 
     	window.location.href = "/"; 
 

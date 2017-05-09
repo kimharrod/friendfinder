@@ -206,5 +206,69 @@
             "2",
             "2"
         ]
+    },
+    {
+        "name": "Miranda",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTAEeLdGtiW0vcd6gFJkJn59_zOJeJ1L1CS51das17LpA2uTVpZ",
+        "scores": [
+            "2",
+            "4",
+            "2",
+            "5",
+            "4",
+            "2",
+            "5",
+            "1",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "name": "Chiharu",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTeYKn5totQsbvrd36GBow58InHKFu6glIzwZPuTAnAroFnrdvDJg",
+        "scores": [
+            "2",
+            "4",
+            "2",
+            "5",
+            "4",
+            "2",
+            "5",
+            "1",
+            "3",
+            "2"
+        ]
+    },
+    {
+        "name": "Nina",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjf2JI6TdUZBDTOY54SiFrsGSqlPM3GHAWo21xC5WkAJvzTGG3",
+        "scores": [
+            "4",
+            "2",
+            "5",
+            "4",
+            "1",
+            "2",
+            "4",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "name": "Nina",
+        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjf2JI6TdUZBDTOY54SiFrsGSqlPM3GHAWo21xC5WkAJvzTGG3",
+        "scores": [
+            "2",
+            "3",
+            "1",
+            "4",
+            "2",
+            "5",
+            "2",
+            "3",
+            "3",
+            "2"
+        ]
     }
 ]
