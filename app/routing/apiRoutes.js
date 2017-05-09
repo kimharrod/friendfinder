@@ -29,12 +29,12 @@ module.exports = function(app) {
 		var diffArray = [];
 
 		// for loop to compare the user's answers to each friend in the database
-		for (let i = 0; i < friendsData.length; i++){
+		for (var i = 0; i < friendsData.length; i++){
 
 			var diffSum = 0;
 
 			// for each of the 10 questions get a number differential
-			for (let n = 0; n < currentUser.scores.length; n++) {
+			for (var n = 0; n < currentUser.scores.length; n++) {
 
 				var diff = currentUser.scores[n] - friendsData[i].scores[n];
 
@@ -59,7 +59,7 @@ module.exports = function(app) {
 		var lowMatch = 100;
 		var bestMatch = {};
 
-		for (let i =0; i < diffArray.length; i++) {
+		for (var i =0; i < diffArray.length; i++) {
 
 			if (diffArray[i].friendscore < lowMatch) {
 
