@@ -7,6 +7,12 @@ body  {
 	font-family: 'Varela Round', sans-serif;
 }
 
+body h2 h4 {
 
+	font-weight: bolder;
+}
 
+.jumbotron {
 
+	background-color: #ffffe0;
+}
