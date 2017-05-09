@@ -112,22 +112,6 @@
         ]
     },
     {
-        "name": "Angela",
-        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMJSbDYXIJ46oGqs3ESv2vPE9cF-gb14cQP6Q87di15idltcF",
-        "scores": [
-            "2",
-            "3",
-            "2",
-            "4",
-            "2",
-            "5",
-            "4",
-            "2",
-            "1",
-            "2"
-        ]
-    },
-    {
         "name": "Dana",
         "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQH5MB_EFybsVUpDKJWI48UzcQnwoHWACV-JOu_EDfgwJ4T9YhR7g",
         "scores": [
@@ -237,22 +221,6 @@
             "1",
             "3",
             "2"
-        ]
-    },
-    {
-        "name": "Nina",
-        "photo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjf2JI6TdUZBDTOY54SiFrsGSqlPM3GHAWo21xC5WkAJvzTGG3",
-        "scores": [
-            "4",
-            "2",
-            "5",
-            "4",
-            "1",
-            "2",
-            "4",
-            "2",
-            "4",
-            "1"
         ]
     },
     {
