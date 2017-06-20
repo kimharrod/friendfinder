@@ -1,8 +1,8 @@
 body  {
 
-	background-image: url('Hawaii.JPG');
+	background-image: url('beach.jpg');
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	height: 100%;
 	font-family: 'Varela Round', sans-serif;
 }

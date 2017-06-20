@@ -254,5 +254,21 @@
             "3",
             "1"
         ]
+    },
+    {
+        "name": "Gina",
+        "photo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_jlmyOVMCCKDy0Fsnz7dBuQL9SVcKWJTHDBFXmmW8YdlRa6rhvg",
+        "scores": [
+            "4",
+            "2",
+            "5",
+            "5",
+            "1",
+            "1",
+            "2",
+            "4",
+            "4",
+            "2"
+        ]
     }
 ]
